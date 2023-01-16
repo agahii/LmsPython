@@ -13,9 +13,6 @@ class liabrary:
         for x in cls.book_shelve:
             if x.title==_book.title:
                 raise TypeError ("book with " +  _book.title  + " title already exist")
-            
-    
-
         cls.book_shelve.append(_book)
          
          
@@ -28,13 +25,14 @@ class liabrary:
     def returnbook(cls,barcode):
         for a in cls.issuedbook:
             if barcode==a.barcode:
-                print("book found")
+                print('Book Found')
+                
     @classmethod
     def discardbook (cls,barcode):
         for a in cls.book_shelve:
              if (a.barcode==barcode):
                 a.isdiscard=True
-                print("book discarted")
+                
                 
 
 
