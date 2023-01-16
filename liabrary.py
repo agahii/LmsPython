@@ -1,4 +1,4 @@
-import book
+import model.book as book
 class liabrary:
     book_shelve=[]
     def __init__(self,_libraryname: str):

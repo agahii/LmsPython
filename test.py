@@ -1,8 +1,8 @@
-import  author
-import publisher
-import language
-import subject
-import book
+import  model.author as author
+import model.publisher as publisher
+import model.language as language
+import model.subject as subject
+import model.book as book
 import liabrary
 
 
