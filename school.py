@@ -8,6 +8,7 @@ class school:
 @classmethod
 def addstudent( cls,s1):
         cls.List_Students.append(s1)
+        
 @classmethod    
 def addgrade(cls,_grade):
     cls.List_grades.append(_grade)
