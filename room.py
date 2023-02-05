@@ -1,7 +1,7 @@
 import store
 
 
-a=2
+a='dddd'
 
 
 p1= store.person("fraz",7,"male")
